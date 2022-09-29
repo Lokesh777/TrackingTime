@@ -3,35 +3,13 @@ import { Link, Box, Flex, Text, Button, Stack, useColorMode,MenuButton,MenuList,
 import { IoMdMoon,IoMdSunny,IoIosArrowDown} from "react-icons/io";
 import Logo from "./Logo";
 import { NavLink } from "react-router-dom";
+import { useState } from "react";
+import Logout from "./Logout";
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
-
-//   const links = [
-  
-//     {
-//       path: "/",
-//       title: "",
-//     },
-//     {
-//       path: "/integrations",
-//       title: "INTEGRATIONS",
-//     },
-//     {
-//       path: "/blog",
-//       title: "BLOG"
-//     },
-//     {
-//       path: "/login",
-//       title: "LOGIN"
-//     },
-//     {
-//       path: "/login",
-//       title: "TRY FOR FREE"
-//     }
-//   ];
 
   return (
     <NavBarContainer marginTop="-1.2rem" {...props}>
@@ -87,6 +65,8 @@ const MenuItem = ({ children, isLast, to = "/", ...rest }) => {
 };
 
 const MenuLinks = ({ isOpen }) => {
+  
+  const [bag,setBag] =useState(false)
   return (
     <Box
       display={{ base: isOpen ? "block" : "none", md: "block" }}
@@ -187,7 +167,8 @@ const MenuLinks = ({ isOpen }) => {
 
         <MenuItem to="/login" isLast>
         {/* <Button colorScheme='teal' variant='outline'> */}
-          <Button
+         { bag? (<Button
+           gotoHome={()=>setBag(true)}
             size="sm"
             height="2.6rem"
             width="9rem"
@@ -202,8 +183,13 @@ const MenuLinks = ({ isOpen }) => {
             }}
           >
            LOGIN
-          </Button>
+          </Button>):<Logout  />}
+
         </MenuItem>
+
+        {/* <MenuItem >
+        <Logout/>
+        </MenuItem> */}
        
        <MenuItem><ThemeButton/></MenuItem>
       </Stack>
