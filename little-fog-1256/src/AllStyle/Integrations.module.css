@@ -1,0 +1,9 @@
+.IntegrationPageContainer{
+    border: 1px solid yellow;
+    text-align: center;
+    align-items: center;
+    max-width: max-content;
+    margin-top:6rem;
+    /* width: 200%; */
+    height:100rem
+}

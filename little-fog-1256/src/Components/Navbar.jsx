@@ -5,6 +5,7 @@ import Logo from "./Logo";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import Logout from "./Logout";
+import styles from "../AllStyle/Navbar.module.css"
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -73,8 +74,9 @@ const MenuLinks = ({ isOpen }) => {
       flexBasis={{ base: "100%", md: "auto" }}
     >
       <Stack
-       color="#5c6080" fontWeight="600"
-              spacing={8}
+       className={styles.NavbarContainer}
+       color="darkslategray" fontWeight="600" fontSize="13px"
+              spacing={3}
         align="center"
         justify={["center", "space-between", "flex-end", "flex-end"]}
         direction={["column", "row", "row", "row"]}
@@ -85,6 +87,7 @@ const MenuLinks = ({ isOpen }) => {
                 activeStyle={{
                     fontWeight: "light",
                     color: "gray"
+
                 }}
                 >
               INTEGRATIONS
@@ -114,11 +117,11 @@ const MenuLinks = ({ isOpen }) => {
                     borderRadius='md'
                     fontWeight="600"
                     // borderWidth='1px'
-                    // _hover={{ bg: 'gray.400' }}
+                    _hover={{ bg: 'gray.400' }}
                     // _expanded={{ bg: 'blue.400' }}
                     // _focus={{ boxShadow: 'outline' }}
                 >
-                    <Flex> <Box marginRight="5px">FEATURES</Box> 
+                    <Flex> <Box marginRight="5px">{"FEATURES"}</Box> 
                     <Box marginTop="5px" ><IoIosArrowDown /></Box></Flex>
                    
                      
@@ -149,8 +152,8 @@ const MenuLinks = ({ isOpen }) => {
         {/* <Button colorScheme='teal' variant='outline'> */}
           <Button
             size="sm"
-            height="2.6rem"
-            width="9rem"
+            height="2.5rem"
+            width="8rem"
             border="1px solid black"
             rounded="lg"
             // colorScheme='teal'
@@ -170,8 +173,8 @@ const MenuLinks = ({ isOpen }) => {
          { bag? (<Button
            gotoHome={()=>setBag(true)}
             size="sm"
-            height="2.6rem"
-            width="9rem"
+            height="2.5rem"
+            width="7.5rem"
             border="1px solid black"
             rounded="lg"
             // colorScheme='teal'
@@ -183,7 +186,8 @@ const MenuLinks = ({ isOpen }) => {
             }}
           >
            LOGIN
-          </Button>):<Logout  />}
+          </Button>):<Logout  
+           />}
 
         </MenuItem>
 

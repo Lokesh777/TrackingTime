@@ -5,10 +5,10 @@ import {
     Divider,
     Flex,
     FormControl,
-    FormLabel,
+   
     Image,
     Input,
-    Spacer,
+  
     Text
   } from "@chakra-ui/react";
   import { useState } from "react";
@@ -19,7 +19,7 @@ import {
   import { auth } from "../Firebase";
   import { useNavigate } from "react-router-dom";
   import styles from "../AllStyle/Login.module.css"
-import { IoLogoApple, IoLogoFacebook, IoLogoGoogle, IoLogoGoogleplus } from "react-icons/io";
+import { IoLogoApple, IoLogoFacebook, IoLogoGoogle } from "react-icons/io";
   
   export default function Login() {
     const [email, setEmail] = useState("");
@@ -78,6 +78,7 @@ import { IoLogoApple, IoLogoFacebook, IoLogoGoogle, IoLogoGoogleplus } from "rea
                                 className={styles.loginDivLogoBtn}
                                 type="email"
                                 width="70%"
+                                borderColor="purple.700"
                                 value={email}
                                 placeholder="Enter your Email Address "
                                 onChange={(e) => setEmail(e.target.value)}
@@ -90,6 +91,8 @@ import { IoLogoApple, IoLogoFacebook, IoLogoGoogle, IoLogoGoogleplus } from "rea
                                 className={styles.loginDivLogoBtn}
                                 width="70%"
                                 type="password"
+                                color="purple.900"
+                                borderColor="purple.700"
                                 value={password}
                                 placeholder="Enter your password" 
                                 onChange={(e) => setPassword(e.target.value)}
@@ -103,6 +106,7 @@ import { IoLogoApple, IoLogoFacebook, IoLogoGoogle, IoLogoGoogleplus } from "rea
                                      color="white" backgroundColor="purple"
                                     className={styles.loginDivLogoBtnSubmit}
                                     //  colorScheme="teal" variant="solid"
+                                    
                                      >
                                    LOGIN
                                     </Button>
@@ -117,7 +121,7 @@ import { IoLogoApple, IoLogoFacebook, IoLogoGoogle, IoLogoGoogleplus } from "rea
                                     }}
                                     >
                                     Don’t have an account? 
-                                    <Text   marginLeft=".5rem" color="purple" onClick={() => setMove(true)}>SIGN UP</Text>
+                                    <Text    fontWeight="800"   marginLeft=".5rem" color="purple" onClick={() => setMove(true)}>SIGN UP</Text>
                                     </Flex>
                                 </Box>
                                 ) : (
@@ -146,7 +150,8 @@ import { IoLogoApple, IoLogoFacebook, IoLogoGoogle, IoLogoGoogleplus } from "rea
                                    Back to 
                                     <Text
                                     colorScheme="purple"
-                                   
+                                      color="purple"
+                                      fontWeight="800"
                                     marginLeft=".5rem"
                                         onClick={() => {
                                         setMove(false);

@@ -1,12 +1,26 @@
 .App {
   text-align: center;
-  /* background-color: #f6f8f9; */
+  /* background-color: #ffffff; */
+  /* color:black */
+  /* color:white */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.card {
+  height: "200px";
+  width: "200px";
+  padding-top: "80px";
+  text-align: "center";
+  background: "#52C0F5";
+  color: "#FFF";
+  font-size: "12px";
+  text-transform: "uppercase";
+  border-radius: "10px";
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
