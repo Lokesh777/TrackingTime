@@ -1,0 +1,29 @@
+.FooterMainContainer{
+    /* border: 1px solid greenyellow; */
+    margin-top:6rem;
+    width: 200%;
+ 
+    /* maxW='5xl' bg='blue.600' */
+}
+.footerUpper{
+    width: 14rem;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    margin-bottom: 3rem;
+    word-spacing: 2px;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+    font-size: 14px;
+    margin-left: 2rem;
+
+}
+.footerUpperFlexBox{
+    margin-left: 4rem;
+    text-align:start;
+     font-size: 13px
+
+}
+.bottomFooter{
+    margin-left: 5rem;
+    text-align:start;
+}
