@@ -1,6 +1,12 @@
+import { Box } from "@chakra-ui/react";
+
 export default function TimeCards(){
 
     return(
-        <h1>TimeCards Page</h1>
+        <Box>
+            <h1>TimeCards Page</h1>
+           
+        </Box>
+        
     )
 }

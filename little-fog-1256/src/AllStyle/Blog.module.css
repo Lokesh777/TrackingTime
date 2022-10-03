@@ -1,0 +1,93 @@
+.BlogContainer{
+    width: 100%;
+    /* height: 100%; */
+    
+    text-align: center;
+    align-items: center;
+}
+
+/* ******************************************************************** */
+.BlogSlideBox{
+    /* border: 1px solid re d; */
+    width:1220px;
+    height: 36rem;
+    /* position: relative; */
+    align-items: center;
+    /* margin-bottom: 5rem; */
+    background-color: blueviolet;
+    margin-top: -2.5rem;
+    align-items: center;
+    text-align: center
+}
+
+
+.BlogSlideHeading{
+    font-size: 2rem;
+    font-weight: bold;
+    color: aliceblue;
+    margin-top: 2rem;
+}
+.BlogSlideImage{
+    width: 40%;
+    height: 30%;
+    margin: auto;
+}
+.BlogSlideHeadingTwo{
+    font-size: 3rem;
+    font-weight: bold;
+    color: aliceblue;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* *************************************************************************************************** */
+.BlogMainSecondMainDiv{
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    /* position: absolute; */
+    /* border: 1px solid green; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    /* margin-top: 1rem; */
+    /* margin-left: -5%; */
+    /* margin-bottom: 1rem; */
+    margin: 1rem auto;
+}
+.BlogMainSecondDiv{
+    width: 20rem;
+    height: 20rem;
+    /* margin-top: 2rem; */
+    align-items: center;
+    /* border: 1px solid blue; */
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    border-radius: .5rem;
+}
+.BlogMainSecondDiv :hover{
+  transform: scale(1.009);
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4
+}
+
+
+
+/* .BlogLogoImageDiv{
+    border: 1px solid rgb(247, 12, 247);
+} */
+
+.BlogImage{
+   width:16rem;
+   height: 10rem;
+   margin: auto;
+}
+.BlogDescDiv{
+    width:18rem ;
+    margin-top: 2rem;
+    /* border: 1px solid green; */
+}
+.BlogDescText{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(69, 6, 69);
+    margin-left: 1rem;
+}

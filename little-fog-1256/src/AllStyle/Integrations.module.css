@@ -1,9 +1,163 @@
 .IntegrationPageContainer{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     text-align: center;
     align-items: center;
     max-width: max-content;
-    margin-top:6rem;
-    /* width: 200%; */
-    height:100rem
+    margin-top:5rem;
+    width: 200%;
+    /* height:100rem */
+}
+.IntegrationHeadingOne{
+    /* width: 14rem; */
+    justify-content: space-evenly;
+    color: rgb(39, 5, 39);
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+.IntegrationHeadingTwo{
+    justify-content: space-evenly;
+    color: rgb(86, 3, 86);
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+.IntegrationHeadingThree{
+    justify-content: space-evenly;
+    color: rgb(39, 5, 39);
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+/* .IntegrationSearchBoxMainBox{
+    background-image:url("https://trackingtime.co/wp-content/themes/trackingtime-v5/img/layout/integrations/lines-integration.svg");
+   
+} */
+.IntegrationInputGrpup{
+    
+    /* marginLeft="10rem" */
+    align-items: center;
+   background-color: white;
+    padding:2rem;
+    /* width: 35rem; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* margin: 0 0 0 12rem; */
+
+}
+.IntegrationInputButton{
+    height:3rem;
+     size:larger;
+     /* margin: auto ; */
+     margin-top: 4rem;
+     margin-right: 1rem;
+}
+.IntegrationInput{
+   height: 5rem;
+   
+   /* border: 0 light white; */
+   color:black;
+   font-weight:bold;
+  
+}
+.IntegrationSearchBackGround{
+    margin-top: 2rem;
+    overflow: visible;
+}
+
+.IntegrationSearchBelowPara{
+   text-align: start;
+    /* justify-content: space-evenly; */
+    color: gray;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    background-image:url("https://trackingtime.co/wp-content/themes/trackingtime-v5/img/layout/integrations/lines-integration.svg");
+}
+.MobileAppliction{
+    width: 60%;
+    margin-top: 5rem;
+    text-align: start;
+    margin-left: 10rem;
+    /* margin-right: 10rem; */
+   
+}
+.MobileApplictionPara{
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    width: 20rem;
+    font-weight: 500;
+    color: gray;
+    font-size: 18px;
+}
+
+.MobileApplictionLogo{
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    background-color: black;
+}
+.MobileApplictionMobile{
+    width: 40%;
+}
+.appDetailsdata{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+    margin-bottom:5rem;
+     margin-left: 5rem;
+}
+
+.appDetailsDivBox{
+    text-align: start;
+    /* border: 1px solid red; */
+    height: 15rem;
+   
+}
+.AppIntegrationimgBtn{
+    width: 5rem;
+    /* height: 5rem; */
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   margin-bottom: 1rem;;
+}
+.AppIntegrationImage{
+    width: 3rem;
+    height:3rem;
+    margin: .2em 0 0rem 0;
+  
+  
+}
+.AppIntegrationHeading{
+    font-weight: 700;
+    color: purple;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+.AppIntegrationDesc{
+    font-size: 16px;
+    color: gray;
+    width: 15rem;
+    font-weight: 500;
+    word-break: break-word;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 20px; /* fallback */
+   max-height: 42px; /* fallback */
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
 }
