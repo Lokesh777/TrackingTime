@@ -158,7 +158,7 @@ const MenuLinks = ({ isOpen }) => {
             rounded="lg"
             // colorScheme='teal'
             color={["black", "primary.500", "black", "black"]}
-            // bg={["#805AD5", "purple.600", "primary.500", "primary.500"]}
+            bg={["#fffff", "white", "primary.500", "white"]}
             _hover={{
               color:"white",
               bg:"purple"

@@ -1,0 +1,154 @@
+.TimeTrackerFirstBox{
+    width: 100%;
+    /* height: 100%; */
+    
+    text-align: center;
+    align-items: center;
+}
+.TimeTrackerFirstBoxImage{
+    width: 20rem;
+    height: 100%;
+    margin: 0 auto;
+}
+.TimeTrackerFirstBoxHeadingOne{
+    color: purple;
+    margin-top: 2rem;
+}
+
+.mainLandingPage{
+ 
+    margin:2rem 0 0 0;
+   align-items: center;
+   text-align: center;
+}
+.signInFreeFormInput{
+   /* text-align: center; */
+    height:2.5rem ;
+    margin-right: .4rem;
+
+     /* margin-left: 18rem; */
+     color:  rgb(40, 6, 40);
+     
+      border-color:purple
+}
+.signInFreeFormBtn{
+     width: 13rem;
+     height:2.6rem;     
+     color:white;
+     background-color: purple;
+    
+}
+.signInFreeFormBtn:hover{
+ color: black;
+ background-color: rgb(57, 5, 57);
+}
+
+.signInFreeFormGoogle{
+   margin:3rem 0 0 8rem ; 
+   text-align: center;
+   align-items: center;
+}
+.signInFreeFormGoogleText{
+   color:rgb(95, 90, 90);
+    font-size: 18px;
+    font-weight: 700; 
+} 
+.signInFreeFormGoogleText:hover{
+   background-color: white;
+  transform: scale(1.009);  color: purple;
+ 
+}
+/* **********************second box */
+
+.TimeTrackerSecondBox{
+    margin: 5rem 0 0 -20rem ;
+    width: 1000px;
+    /* position: relative; */
+    /* width: 100%; */
+    height: 100%;
+    align-items: center;
+    text-align: center;
+
+}
+.TimeTrackerSecondBoxImage{
+    width: 55%;
+    height: 70%;
+    margin-right: 5rem;
+   
+}
+.TimeTrackerSecondBoxInnerBoxHeading{
+    color: purple;
+    width:30rem;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 6rem 0 2rem 0;
+    text-align: start;
+}
+.TimeTrackerSecondBoxInnerBoxText{
+    word-break: break-word;
+   overflow: hidden;
+   color: gray;
+   font-size: 20px;
+   font-weight: 600;
+   margin: 2rem 0 0 0;
+   text-align: start;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 30px; /* fallback */
+  
+}
+/* **********************Third box */
+
+.TimeTrackerThirdBox{
+    margin: 5rem 0 0 -20rem ;
+    width: 1000px;
+    /* position: relative; */
+    /* width: 100%; */
+    height: 100%;
+    align-items: center;
+    text-align: center;
+
+}
+.TimeTrackerThirdBoxImage{
+    width: 55%;
+    height: 70%;
+    margin-right: 5rem;
+   
+}
+.TimeTrackerThirdBoxInnerBoxHeading{
+    color: purple;
+    width:35rem;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 10rem 0 2rem 0;
+    text-align: start;
+}
+.TimeTrackerThirdBoxInnerBoxText{
+   word-break: break-word;
+   overflow: hidden;
+   color: gray;
+   font-size: 20px;
+   font-weight: 600;
+   margin: 2rem 0 0 0;
+   text-align: start;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 30px; /* fallback */
+  
+}
+.TimeTrackerFourBoxInnerBox{
+    margin: 5rem 0 0 -15rem;
+    width: 1000px;
+    align-items: center;
+    text-align: center;
+}
+.TimeTrackerFourBoxInnerBoxHeading{
+ color: purple;
+ font-size: 1.5rem;
+ font-weight: 700;
+ margin: 0rem 0 2rem 0;
+}
+.TimeTrackerFourBoxInnerBoxButton:hover{
+  background-color: white;
+  color: black;
+}

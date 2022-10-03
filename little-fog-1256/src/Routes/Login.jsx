@@ -130,6 +130,7 @@ import { IoLogoApple, IoLogoFacebook, IoLogoGoogle } from "react-icons/io";
                                     <Button
                                       className={styles.loginDivLogoBtnSubmit}
                                     onClick={handleRegister}
+                                    backgroundColor="purple"
                                     colorScheme="purple"
                                     // variant="solid"
                                     >
@@ -159,7 +160,7 @@ import { IoLogoApple, IoLogoFacebook, IoLogoGoogle } from "react-icons/io";
 
                                         }}
                                     >
-                                        Log-In
+                                        LOGIN
                                     </Text>
                                     </Flex>
                                 </Box>
@@ -170,6 +171,7 @@ import { IoLogoApple, IoLogoFacebook, IoLogoGoogle } from "react-icons/io";
                     </Container>
                 </Box>
             </Flex>
+  
         </Box>
       
     );

@@ -1,4 +1,4 @@
-import { Button, Center, Container, Divider, Spacer, Text} from "@chakra-ui/react";
+import { Button, Center, Container, Text} from "@chakra-ui/react";
 import { auth } from "../Firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useNavigate } from "react-router-dom";

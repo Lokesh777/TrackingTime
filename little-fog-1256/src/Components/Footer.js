@@ -1,10 +1,71 @@
-import { Box, Button, Container, Flex, Heading, Menu, MenuButton, MenuItem, MenuList,Text } from "@chakra-ui/react"
+import { Box, Button, Container, Flex, Heading, Image, Menu, MenuButton, MenuItem, MenuList,Text,Input } from "@chakra-ui/react"
 import { IoIosArrowDown, IoLogoFacebook, IoLogoLinkedin, IoLogoTwitter } from "react-icons/io"
 import styles from "../AllStyle/Footer.module.css"
 
 function Footer(){
     return(
         <Container  maxW='7xl' centerContent className={styles.FooterMainContainer}  >
+         
+         <Box centerContent alignContent="center" >
+              <Box className={styles.getStartedSignUpBox}>
+                  <Image className={styles.GetStartSInup} src="https://trackingtime.co/wp-content/themes/trackingtime-v5/img/layout/footer/tt.svg" alt="icon" />
+                  <Heading color="purple" >Get Started</Heading>
+                  <Text className={styles.GetStartedHeading}>Sign up today and join thousands of people around the world using TrackingTime to make the most of their time.</Text>
+                
+                  <Flex textAlign="center" >
+
+                      <Input
+                        borderColor="purple"
+                        color="purple"
+                          width="19rem"
+                          // marginRight="1rem"
+                          // marginLeft="20rem"
+                      className={styles.signInFreeFormInput}
+                      placeholder="Your Work Email"  />
+
+                        <Button
+                          className={styles.signInFreeFormBtn} 
+                          // height="2.6rem"
+                          // width="15rem"
+                          color={["white", "primary.500", "white", "blwhiteack"]}
+                          bg={["purple", "purple", "primary.500", "primary.500"]}
+                          _hover={{
+                              color:"black",
+                          bg: ["white", "#805AD5", "white", "primary.600"]
+                          }} 
+                          >
+                          START FOR FREE!
+                        </Button>
+                  </Flex>  
+                
+
+                  <Flex className={styles.signInFreeFormGoogle}  >
+                        
+                            
+                        <Image 
+                        
+                        boxSize='28px'
+                            objectFit='cover'
+                            marginRight="1rem"
+                            src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/keywords/google-key.png"
+                                alt="google icon" />
+
+                        <Text
+                          className={styles.signInFreeFormGoogleText} 
+                          _hover={{
+                            color: ["purple", "#805AD5", "purple", "primary.600"],
+                            textDecoration: "underline"
+                        }} 
+                        >Sign in with Google</Text>
+                  </Flex>
+         
+
+            </Box>
+
+           
+         </Box>
+         <br/><br/><br/>
+
             <Box  >
             {/* <div id="pankajfooter"  style="margin-left:50px;"> */}
          <Flex  className={styles.footerUpperFlexBox} >
