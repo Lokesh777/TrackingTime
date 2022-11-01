@@ -2,13 +2,11 @@ TreckingTime Clone Website
 
 TrackingTime is a collaborative, cloud-based time tracking service that helps businesses of any size manage their projects, track working times and measure productivity.
 
-Stacks: Chakra-Ui and React and Firebase-Authentication
+Stacks: Chakra-Ui and React and Firebase-Authentication.
 
 Deploy-link: https://little-fog-1256.vercel.app/
 
-
-
-we started to clone the website along with the functionalities, at start we just addded some of the functionalities as follows:
+i started to clone the website along with the functionalities, at start i just addded some of the functionalities as follows:
 
 Login/Singup by Firebase_authentication
 Follow Us On Social Media Platform 
